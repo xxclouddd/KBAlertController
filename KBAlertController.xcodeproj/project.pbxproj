@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A29B59907B2B603BF463D8 /* libPods-KBAlertController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8878B40C8491BF39918621 /* libPods-KBAlertController.a */; };
+		9DE6D5F01E67EA45003A9685 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D5EF1E67EA45003A9685 /* main.m */; };
+		9DE6D5F31E67EA45003A9685 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D5F21E67EA45003A9685 /* AppDelegate.m */; };
+		9DE6D5F61E67EA45003A9685 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D5F51E67EA45003A9685 /* ViewController.m */; };
+		9DE6D5F91E67EA46003A9685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6D5F71E67EA46003A9685 /* Main.storyboard */; };
+		9DE6D5FB1E67EA46003A9685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6D5FA1E67EA46003A9685 /* Assets.xcassets */; };
+		9DE6D5FE1E67EA46003A9685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DE6D5FC1E67EA46003A9685 /* LaunchScreen.storyboard */; };
+		9DE6D6121E67EA7C003A9685 /* kbAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D6071E67EA7C003A9685 /* kbAlertAction.m */; };
+		9DE6D6131E67EA7C003A9685 /* kbAlertCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D6091E67EA7C003A9685 /* kbAlertCategory.m */; };
+		9DE6D6141E67EA7C003A9685 /* kbAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D60B1E67EA7C003A9685 /* kbAlertController.m */; };
+		9DE6D6151E67EA7C003A9685 /* kbAlertTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D60D1E67EA7C003A9685 /* kbAlertTransition.m */; };
+		9DE6D6161E67EA7C003A9685 /* kbCustomAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D60F1E67EA7C003A9685 /* kbCustomAlertController.m */; };
+		9DE6D6171E67EA7C003A9685 /* kbSheetTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6D6111E67EA7C003A9685 /* kbSheetTransition.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A8878B40C8491BF39918621 /* libPods-KBAlertController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KBAlertController.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A0E235EEC8FF94327AA347A /* Pods-KBAlertController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBAlertController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KBAlertController/Pods-KBAlertController.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE6D5EB1E67EA45003A9685 /* KBAlertController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KBAlertController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DE6D5EF1E67EA45003A9685 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9DE6D5F11E67EA45003A9685 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9DE6D5F21E67EA45003A9685 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9DE6D5F41E67EA45003A9685 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9DE6D5F51E67EA45003A9685 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9DE6D5F81E67EA46003A9685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DE6D5FA1E67EA46003A9685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DE6D5FD1E67EA46003A9685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DE6D5FF1E67EA46003A9685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DE6D6061E67EA7C003A9685 /* kbAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kbAlertAction.h; sourceTree = "<group>"; };
+		9DE6D6071E67EA7C003A9685 /* kbAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kbAlertAction.m; sourceTree = "<group>"; };
+		9DE6D6081E67EA7C003A9685 /* kbAlertCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kbAlertCategory.h; sourceTree = "<group>"; };
+		9DE6D6091E67EA7C003A9685 /* kbAlertCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kbAlertCategory.m; sourceTree = "<group>"; };
+		9DE6D60A1E67EA7C003A9685 /* kbAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kbAlertController.h; sourceTree = "<group>"; };
+		9DE6D60B1E67EA7C003A9685 /* kbAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kbAlertController.m; sourceTree = "<group>"; };
+		9DE6D60C1E67EA7C003A9685 /* kbAlertTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kbAlertTransition.h; sourceTree = "<group>"; };
+		9DE6D60D1E67EA7C003A9685 /* kbAlertTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kbAlertTransition.m; sourceTree = "<group>"; };
+		9DE6D60E1E67EA7C003A9685 /* kbCustomAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kbCustomAlertController.h; sourceTree = "<group>"; };
+		9DE6D60F1E67EA7C003A9685 /* kbCustomAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kbCustomAlertController.m; sourceTree = "<group>"; };
+		9DE6D6101E67EA7C003A9685 /* kbSheetTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kbSheetTransition.h; sourceTree = "<group>"; };
+		9DE6D6111E67EA7C003A9685 /* kbSheetTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kbSheetTransition.m; sourceTree = "<group>"; };
+		B405F464E5EB4225C795F170 /* Pods-KBAlertController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KBAlertController.release.xcconfig"; path = "Pods/Target Support Files/Pods-KBAlertController/Pods-KBAlertController.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DE6D5E81E67EA45003A9685 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06A29B59907B2B603BF463D8 /* libPods-KBAlertController.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F117430B7388C85468F8F33 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A0E235EEC8FF94327AA347A /* Pods-KBAlertController.debug.xcconfig */,
+				B405F464E5EB4225C795F170 /* Pods-KBAlertController.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9DE6D5E21E67EA45003A9685 = {
+			isa = PBXGroup;
+			children = (
+				9DE6D5ED1E67EA45003A9685 /* KBAlertController */,
+				9DE6D5EC1E67EA45003A9685 /* Products */,
+				7F117430B7388C85468F8F33 /* Pods */,
+				D1E850B9CD269F184ADA0DC6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9DE6D5EC1E67EA45003A9685 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6D5EB1E67EA45003A9685 /* KBAlertController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DE6D5ED1E67EA45003A9685 /* KBAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6D6051E67EA7C003A9685 /* KBAlertController */,
+				9DE6D5F11E67EA45003A9685 /* AppDelegate.h */,
+				9DE6D5F21E67EA45003A9685 /* AppDelegate.m */,
+				9DE6D5F41E67EA45003A9685 /* ViewController.h */,
+				9DE6D5F51E67EA45003A9685 /* ViewController.m */,
+				9DE6D5F71E67EA46003A9685 /* Main.storyboard */,
+				9DE6D5FA1E67EA46003A9685 /* Assets.xcassets */,
+				9DE6D5FC1E67EA46003A9685 /* LaunchScreen.storyboard */,
+				9DE6D5FF1E67EA46003A9685 /* Info.plist */,
+				9DE6D5EE1E67EA45003A9685 /* Supporting Files */,
+			);
+			path = KBAlertController;
+			sourceTree = "<group>";
+		};
+		9DE6D5EE1E67EA45003A9685 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6D5EF1E67EA45003A9685 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9DE6D6051E67EA7C003A9685 /* KBAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6D6061E67EA7C003A9685 /* kbAlertAction.h */,
+				9DE6D6071E67EA7C003A9685 /* kbAlertAction.m */,
+				9DE6D6081E67EA7C003A9685 /* kbAlertCategory.h */,
+				9DE6D6091E67EA7C003A9685 /* kbAlertCategory.m */,
+				9DE6D60A1E67EA7C003A9685 /* kbAlertController.h */,
+				9DE6D60B1E67EA7C003A9685 /* kbAlertController.m */,
+				9DE6D60C1E67EA7C003A9685 /* kbAlertTransition.h */,
+				9DE6D60D1E67EA7C003A9685 /* kbAlertTransition.m */,
+				9DE6D60E1E67EA7C003A9685 /* kbCustomAlertController.h */,
+				9DE6D60F1E67EA7C003A9685 /* kbCustomAlertController.m */,
+				9DE6D6101E67EA7C003A9685 /* kbSheetTransition.h */,
+				9DE6D6111E67EA7C003A9685 /* kbSheetTransition.m */,
+			);
+			path = KBAlertController;
+			sourceTree = "<group>";
+		};
+		D1E850B9CD269F184ADA0DC6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A8878B40C8491BF39918621 /* libPods-KBAlertController.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DE6D5EA1E67EA45003A9685 /* KBAlertController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DE6D6021E67EA46003A9685 /* Build configuration list for PBXNativeTarget "KBAlertController" */;
+			buildPhases = (
+				970A8D4ECFB1C75880E5E748 /* [CP] Check Pods Manifest.lock */,
+				9DE6D5E71E67EA45003A9685 /* Sources */,
+				9DE6D5E81E67EA45003A9685 /* Frameworks */,
+				9DE6D5E91E67EA45003A9685 /* Resources */,
+				5CC89027DAEBE5684C15B36F /* [CP] Embed Pods Frameworks */,
+				21972A4728DFB5E60365C684 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KBAlertController;
+			productName = KBAlertController;
+			productReference = 9DE6D5EB1E67EA45003A9685 /* KBAlertController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DE6D5E31E67EA45003A9685 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = kuaibao;
+				TargetAttributes = {
+					9DE6D5EA1E67EA45003A9685 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HD8M8UJ4YA;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DE6D5E61E67EA45003A9685 /* Build configuration list for PBXProject "KBAlertController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DE6D5E21E67EA45003A9685;
+			productRefGroup = 9DE6D5EC1E67EA45003A9685 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DE6D5EA1E67EA45003A9685 /* KBAlertController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DE6D5E91E67EA45003A9685 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE6D5FE1E67EA46003A9685 /* LaunchScreen.storyboard in Resources */,
+				9DE6D5FB1E67EA46003A9685 /* Assets.xcassets in Resources */,
+				9DE6D5F91E67EA46003A9685 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21972A4728DFB5E60365C684 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBAlertController/Pods-KBAlertController-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC89027DAEBE5684C15B36F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KBAlertController/Pods-KBAlertController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		970A8D4ECFB1C75880E5E748 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DE6D5E71E67EA45003A9685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DE6D6171E67EA7C003A9685 /* kbSheetTransition.m in Sources */,
+				9DE6D6161E67EA7C003A9685 /* kbCustomAlertController.m in Sources */,
+				9DE6D5F61E67EA45003A9685 /* ViewController.m in Sources */,
+				9DE6D6141E67EA7C003A9685 /* kbAlertController.m in Sources */,
+				9DE6D6151E67EA7C003A9685 /* kbAlertTransition.m in Sources */,
+				9DE6D6131E67EA7C003A9685 /* kbAlertCategory.m in Sources */,
+				9DE6D6121E67EA7C003A9685 /* kbAlertAction.m in Sources */,
+				9DE6D5F31E67EA45003A9685 /* AppDelegate.m in Sources */,
+				9DE6D5F01E67EA45003A9685 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9DE6D5F71E67EA46003A9685 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE6D5F81E67EA46003A9685 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DE6D5FC1E67EA46003A9685 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DE6D5FD1E67EA46003A9685 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DE6D6001E67EA46003A9685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9DE6D6011E67EA46003A9685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DE6D6031E67EA46003A9685 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0E235EEC8FF94327AA347A /* Pods-KBAlertController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD8M8UJ4YA;
+				INFOPLIST_FILE = KBAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.KBAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9DE6D6041E67EA46003A9685 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B405F464E5EB4225C795F170 /* Pods-KBAlertController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HD8M8UJ4YA;
+				INFOPLIST_FILE = KBAlertController/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kuaidihelp.KBAlertController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DE6D5E61E67EA45003A9685 /* Build configuration list for PBXProject "KBAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE6D6001E67EA46003A9685 /* Debug */,
+				9DE6D6011E67EA46003A9685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DE6D6021E67EA46003A9685 /* Build configuration list for PBXNativeTarget "KBAlertController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE6D6031E67EA46003A9685 /* Debug */,
+				9DE6D6041E67EA46003A9685 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9DE6D5E31E67EA45003A9685 /* Project object */;
+}
