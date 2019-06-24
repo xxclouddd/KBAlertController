@@ -16,10 +16,10 @@ Pod::Spec.new do |s|
                     This is KBAlertController.
                    DESC
 
-  s.homepage     = "ssh://git@121.41.38.122:2020/kuaibao/gitdata/iOS/KBAlertController.git"
+  s.homepage     = "ssh://git@121.41.38.122:2020/xiaoxiong/gitdata/iOS/KBAlertController.git"
   s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "ssh://git@121.41.38.122:2020/kuaibao/gitdata/iOS/KBAlertController.git", :tag => s.version.to_s }
+  s.source       = { :git => "ssh://git@121.41.38.122:2020/xiaoxiong/gitdata/iOS/KBAlertController.git", :tag => s.version.to_s }
 
   s.source_files  = "KBAlertController/KBAlertController/**/*.{h,m}"
   #s.frameworks = "CoreGraphics", "UIKit"
